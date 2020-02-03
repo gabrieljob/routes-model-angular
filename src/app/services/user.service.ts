@@ -8,7 +8,7 @@ export class UserService {
   constructor() { }
 
   isAdminRights(): boolean{
-    return false;
+    return true;
   }
 
 }
